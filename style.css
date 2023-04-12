@@ -98,11 +98,11 @@ input[type=text], select, textarea {
   }
   
   /* Style the container/contact section */
-  .container {
+  /* .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
-  }
+  } */
   
   /* Create two columns that float next to eachother */
   .column {
@@ -126,6 +126,10 @@ input[type=text], select, textarea {
       margin-top: 0;
     }
   }
+
+.learn-more:hover{
+    text-decoration: underline;
+}
 
 /* section */
 .icon-selectors{
@@ -534,7 +538,7 @@ select:focus{
 /* Heading */
 .heading-quote{
     color: #136a42;
-    margin: 3rem 0rem 2rem;
+    margin: 0rem 0rem 2rem;
     font-size: 2rem;
     background-image: url("https://images.yourstory.com/cs/wordpress/2017/12/agricultural_technology.jpg");
     background-repeat: no-repeat;
@@ -608,6 +612,7 @@ select:focus{
 }
 
 .heading{
+    font-size: 1.5rem;
     color: #198754;
 }
 .video{
